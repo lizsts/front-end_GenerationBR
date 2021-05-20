@@ -1,0 +1,64 @@
+/*Estilo da página index.html*/
+.center {
+    text-align: center;
+}
+
+.justify {
+    text-align: justify;
+    font-size: 14pt;
+}
+
+.container { 
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+    align-items: center;
+
+}
+.cont-video {
+    display:flex;
+    flex-flow: column;
+    justify-content:center;
+    align-items: center;
+ 
+}
+#menu li {
+    display: inline; /*meus itens se organizam na tela numa mesma linha*/
+    padding: 10px; /*espaçamento interno do conteúdo, diferente de margem que é fora*/
+
+}
+#menu li a {
+    text-decoration: none;
+    color: olivedrab;
+    font-size: 16pt;
+}
+#menu li a:hover {
+    color: rgb(46, 66, 0);
+}
+.pd-30 {
+padding: 30px; 
+
+}
+
+.br-10 {
+    border-radius: 10%;
+    
+}
+
+.wh-700 {
+    width: 700px;
+    height: 500px;
+
+}
+
+.tm-social {
+    width: 50px;
+    height: 50px;
+
+}
+
+
+
+
+
+/*Estilo da página contato.html*/
