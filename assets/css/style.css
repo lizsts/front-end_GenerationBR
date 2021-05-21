@@ -1,64 +1,107 @@
-/*Estilo da página index.html*/
-.center {
-    text-align: center;
-}
-
-.justify {
-    text-align: justify;
-    font-size: 14pt;
-}
-
-.container { 
-    display: flex;
-    flex-flow: row;
-    justify-content: center;
-    align-items: center;
-
-}
-.cont-video {
-    display:flex;
-    flex-flow: column;
-    justify-content:center;
-    align-items: center;
- 
-}
-#menu li {
-    display: inline; /*meus itens se organizam na tela numa mesma linha*/
-    padding: 10px; /*espaçamento interno do conteúdo, diferente de margem que é fora*/
-
-}
-#menu li a {
-    text-decoration: none;
-    color: olivedrab;
-    font-size: 16pt;
-}
-#menu li a:hover {
-    color: rgb(46, 66, 0);
-}
-.pd-30 {
-padding: 30px; 
-
-}
-
-.br-10 {
-    border-radius: 10%;
-    
-}
-
-.wh-700 {
-    width: 700px;
-    height: 500px;
-
-}
-
-.tm-social {
-    width: 50px;
-    height: 50px;
-
-}
-
-
-
-
-
-/*Estilo da página contato.html*/
+                /*Estilo da página index.html*/
+                
+                .body {
+                    background-color: rgba(0, 0, 0, 0.897);
+                    font-family: KoHo;
+                }
+                
+                .center {
+                    text-align: center;
+                    color: rgb(79, 134, 252);
+                }
+                
+                .justify {
+                    text-align: justify;
+                    font-size: 14pt;
+                    color: rgb(253, 198, 237);
+                }
+                
+                .container {
+                    display: flex;
+                    flex-flow: row;
+                    justify-content: center;
+                    align-items: center;
+                }
+                
+                @keyframes neon {
+                    from {
+                        filter: drop-shadow(0 0 0 var(--cor-neon));
+                    }
+                    to {
+                        filter: drop-shadow(0 0 10px var(--cor-neon));
+                    }
+                }
+                
+                .cont-video {
+                    display: flex;
+                    flex-flow: column;
+                    justify-content: center;
+                    align-items: center;
+                    color: rgb(79, 134, 252);
+                    padding: 40px;
+                }
+                
+                #menu li {
+                    display: inline;
+                    /*meus itens se organizam na tela numa mesma linha*/
+                    padding: 10px;
+                    /*espaçamento interno do conteúdo, diferente de margem que é fora*/
+                }
+                
+                .h1 {
+                    --cor-neon: rgb(79, 134, 252);
+                    font-size: 40pt;
+                    -webkit-box-reflect: below 1px linear-gradient(transparent, rgb(79, 134, 252));
+                }
+                
+                #menu li a {
+                    text-decoration: none;
+                    color: rgb(52, 116, 255);
+                    font-size: 18pt;
+                }
+                
+                #menu li a:hover {
+                    background-color: rgb(253, 198, 237);
+                    border-radius: 10px;
+                    box-shadow: 0 0 5px rgb(253, 198, 237), 0 0 25px rgb(253, 198, 237), 0 0 50px rgb(253, 198, 237), 0 0 200px rgb(253, 198, 237);
+                }
+                
+                .cor-f {
+                    color: rgb(253, 198, 237);
+                }
+                
+                .pd-30 {
+                    padding: 30px;
+                }
+                
+                .pd-15 {
+                    padding: 15px;
+                }
+                
+                .br-10 {
+                    border-radius: 10%;
+                }
+                
+                .wh-700 {
+                    width: 700px;
+                    height: 500px;
+                }
+                
+                tex-1 {
+                    display: flex;
+                    flex-flow: row;
+                    align-items: flex-end;
+                }
+                
+                .wh-500 {
+                    width: 500px;
+                    height: 900px;
+                }
+                
+                .tm-social {
+                    width: 50px;
+                    height: 50px;
+                    animation: neon 3s alternate infinite ease-in-out;
+                    --cor-neon: rgb(79, 134, 252);
+                }
+                /*Estilo da página contato.html*/
