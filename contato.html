@@ -5,11 +5,15 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contato</title>
+    <title>Meu portfólio</title>
     <link rel="stylesheet" href="assets/css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=KoHo:200,200italic,300,300italic,regular,italic,500,500italic,600,600italic,700,700italic" rel="stylesheet" />
+
+
+
 </head>
 
-<body>
+<body class="body">
     <ul id="menu">
         <li>
             <a href="index.html">Home</a>
@@ -19,8 +23,9 @@
         </li>
     </ul>
 
-    <h1>Quer saber mais?</h1>
-    <form>
+
+    <h1 class="center h1">Quer saber mais?</h1>
+    <form class="justify">
         <label for="nome">Seu nome: </label> <br>
         <input type="text" id="nome">
         <br>
@@ -35,14 +40,26 @@
         <br>
         <button>Enviar</button>
     </form>
-    <h2>Visite:</h2>
-    <p>Av. Pedro Álvares Cabral, São Paulo-SP</p>
-    <p>04094-050</p>
+    <h2 class="center">Visite:</h2>
+    <p class="center">Av. Pedro Álvares Cabral, São Paulo-SP<br> 04094-050
+    </p>
+    <div class="container">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3656.471673083763!2d-46.659827648698425!3d-23.587411268366246!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce59f1069d11d1%3A0xcb936109af9ce541!2sParque%20Ibirapuera!5e0!3m2!1spt-BR!2sbr!4v1621443107356!5m2!1spt-BR!2sbr"
+            width="400" height="250" style="border:0;" allowfullscreen="" loading="lazy">
+        </iframe> </div>
 
-    <iframe
-        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3656.471673083763!2d-46.659827648698425!3d-23.587411268366246!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce59f1069d11d1%3A0xcb936109af9ce541!2sParque%20Ibirapuera!5e0!3m2!1spt-BR!2sbr!4v1621443107356!5m2!1spt-BR!2sbr"
-        width="400" height="250" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+    <hr>
+    <footer>
+        <div class="container">
+            <a href="https://www.linkedin.com/in/lizandra-santos-032b5a20b/" target="_blank">
+                <img class="tm-social pd-15" src="assets/img/linkedin.png" alt="Logo do Linkedin"> </a>
+            <a href="https://github.com/lizsts" target="_blank">
+                <img class="tm-social pd-15" src="assets/img/github.png" alt="Logo do GitHub"> </a>
+        </div>
 
+        <p class="center cor-f">Todos os direitos reservados - Liz St &copy </p>
+
+    </footer>
 
 </body>
 
