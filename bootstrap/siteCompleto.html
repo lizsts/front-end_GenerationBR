@@ -44,54 +44,185 @@
     </nav>
     <!--Menu-->
 
-    <!--Grid-->
-    <div class="container">
-        <div class="row mt-5 d-flex justify-content-center">
-            <div class="col-md-1  p-0">
-                <div class="bg-dark">
-                    1 coluna
-                </div>
+    <!--carrossel-->
+    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators">
+            <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+        </ol>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img class="d-block w-100" src="assets/img/winter.jpg" alt="Primeiro Slide - chuva">
             </div>
-
-            <div class="col-md-1 p-0">
-                <div class="bg-dark">
-                    2 coluna
-                </div>
+            <div class="carousel-item">
+                <img class="d-block w-100" src="assets/img/coffee.jpg" alt="Segundo Slide - livro">
             </div>
-
-            <div class="col-md-1  p-0">
-                <div class="bg-dark">
-                    3 coluna
-                </div>
+            <div class="carousel-item">
+                <img class="d-block w-100" src="assets/img/books.jpg" alt="Terceiro Slide - café">
             </div>
-
-            <div class="col-md-1  p-0">
-                <div class="bg-dark">
-                    4 coluna
-                </div>
-            </div>
-
-            <div class="col-md-1  p-0">
-                <div class="bg-dark">
-                    5 coluna
-                </div>
-            </div>
-
-            <div class="col-md-1  p-0">
-                <div class="bg-dark">
-                    1 coluna
-                </div>
-            </div>
-
         </div>
-        <!--Grid-->
+        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Anterior</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Próximo</span>
+        </a>
+    </div>
+    <!--carrossel-->
+
+    <!--Jumbotron-->
+    <div class="jumbotron jumbotron-fluid">
+        <div class="container">
+            <h1 class="display-4">Fluid jumbotron</h1>
+            <p class="lead">Este é um jumbotron modificado que ocupa todo o espaço horizontal de seu elemento pai.</p>
+        </div>
+    </div>
+    <!--Jumbotron-->
+
+    <!--cards-->
+    <div class="container">
+        <div class="card-columns">
+            <div class="card">
+                <img class="card-img-top" src=".../100px160/" alt="Imagem de capa do card">
+                <div class="card-body">
+                    <h5 class="card-title">Título do card que quebra em uma nova linha</h5>
+                    <p class="card-text">Este é um card mais longo com suporte a texto embaixo, que funciona como uma introdução a um conteúdo adicional. Este conteúdo é um pouco maior.</p>
+                </div>
+            </div>
+            <div class="card p-3">
+                <blockquote class="blockquote mb-0 card-body">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
+                    <footer class="blockquote-footer">
+                        <small class="text-muted">
+                Alguém famoso em <cite title="Título da fonte">Título da fonte</cite>
+              </small>
+                    </footer>
+                </blockquote>
+            </div>
+            <div class="card">
+                <img class="card-img-top" src=".../100px160/" alt="Imagem de capa do card">
+                <div class="card-body">
+                    <h5 class="card-title">Título do card</h5>
+                    <p class="card-text">Este é um card com suporte a texto embaixo, que funciona como uma introdução a um conteúdo adicional.</p>
+                    <p class="card-text"><small class="text-muted">Atualizados 3 minutos atrás</small></p>
+                </div>
+            </div>
+            <div class="card bg-primary text-white text-center p-3">
+                <blockquote class="blockquote mb-0">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat.</p>
+                    <footer class="blockquote-footer">
+                        <small>
+                Alguém famoso em <cite title="Título da fonte">Título da fonte</cite>
+              </small>
+                    </footer>
+                </blockquote>
+            </div>
+            <div class="card text-center">
+                <div class="card-body">
+                    <h5 class="card-title">Título do card</h5>
+                    <p class="card-text">Este é um card com suporte a texto embaixo, que funciona como uma introdução a um conteúdo adicional.</p>
+                    <p class="card-text"><small class="text-muted">Atualizados 3 minutos atrás</small></p>
+                </div>
+            </div>
+            <div class="card">
+                <img class="card-img" src=".../100px260/" alt="Imagem do card">
+            </div>
+            <div class="card p-3 text-right">
+                <blockquote class="blockquote mb-0">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
+                    <footer class="blockquote-footer">
+                        <small class="text-muted">
+                Alguém famoso em <cite title="Título da fonte">Título da fonte</cite>
+              </small>
+                    </footer>
+                </blockquote>
+            </div>
+            <div class="card">
+                <div class="card-body">
+                    <h5 class="card-title">Título do card</h5>
+                    <p class="card-text">Este é um card maior com suporte a texto embaixo, que funciona como uma introdução a um conteúdo adicional. Este card tem o conteúdo ainda maior que o primeiro, para mostrar a altura igual, em ação.</p>
+                    <p class="card-text"><small class="text-muted">Atualizados 3 minutos atrás</small></p>
+                </div>
+            </div>
+        </div>
+
+        <!--cards-->
+
+        <!--texto e video-->
+        <div class="row mt-5 mb-5">
+            <div class="col-md-6">
+                <h3>Músicas para dias frios</h3>
+                <p> Uma das coisas que aprendi é que se deve viver apesar de. Apesar de, se deve comer. Apesar de, se deve amar. Apesar de, se deve morrer. Inclusive muitas vezes é o próprio apesar de que nos empurra para a frente. Foi o apesar de que me
+                    deu uma angústia que insatisfeita foi a criadora de minha própria vida. </p>
+                <p>Clarice Lispector</p>
+            </div>
+            <div class="col-md-6">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/N1w-hDiJ4dM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+            </div>
+        </div>
+        <!--texto e video-->
+
+        <!--formulário de contato-->
+        <div class="row">
+            <div class="col-md-6">
+                <h4 class="text-center">Entre em contato:</h4>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-md-6">
+                <form>
+                    <div class=" form-group ">
+                        <label for="exampleFormControlInput1 ">E-mail:</label>
+                        <input type="email " class="form-control " id="exampleFormControlInput1 " placeholder="nome@exemplo.com ">
+                    </div>
+                    <div class="form-group ">
+                        <label for="exampleFormControlTextarea1 ">Nome:</label>
+                        <textarea class="form-control " id="exampleFormControlTextarea1 " rows="1 "></textarea>
+                    </div>
+                    <div class="form-group ">
+                        <label for="exampleFormControlTextarea1 ">Dúvidas e sugestões:</label>
+                        <textarea class="form-control " id="exampleFormControlTextarea1 " rows="3 "></textarea>
+                    </div>
+                </form>
+            </div>
+            <div class="col-md-6 ">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d31115.425438915187!2d-41.389694928514785!3d-12.880165968608537!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x742223abc4785eb%3A0xdf9586310ce5dcfa!2sChapada%20Diamantina!5e0!3m2!1spt-BR!2sbr!4v1621910708214!5m2!1spt-BR!2sbr "
+                    width="500 " height="350 " style="border:0; " allowfullscreen=" " loading="lazy "></iframe>
+            </div>
+        </div>
+
+        < <!--formulário de contato-->
+
+            <!--rodapé-->
+            <hr>
+            <footer>
+                <div class="row ">
+                    <div class="col-md-12 d-flex justify-content-center ">
+
+                        <a href="https://www.linkedin.com/in/lizst/ " target="_blank " class="p-3 ">
+                            <img width="80px " src="assets/img/linkedin.png " alt="Logo do Linkedin "> </a>
+                        <a href="https://github.com/lizsts " target="_blank " class="p-3 ">
+                            <img width="80px " src="assets/img/github.png " alt="Logo do GitHub "> </a>
+                        <a href="https://www.instagram.com/rbirdliz/ " target="_blank " class="p-3 ">
+                            <img width="80px " src="assets/img/instagram.png " alt="Logo do Instagram "> </a>
+                    </div>
+                </div>
+
+                <p class="text-center ">Todos os direitos reservados - Liz St &copy </p>
+    </div>
+    </footer>
+    <!--rodapé-->
 
 
-
-        <!--Scripts necessário para utilização dos códigos JS do bootstrap-->
-        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
-        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+    <!--Scripts necessário para utilização dos códigos JS do bootstrap-->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js " integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo " crossorigin="anonymous "></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js " integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49 " crossorigin="anonymous "></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js " integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy " crossorigin="anonymous "></script>
 </body>
 
 </html>
